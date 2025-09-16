@@ -21,7 +21,6 @@ Projeto de ETL, API e Bot do Telegram para ingestão, consulta e análise de dad
 !!!!! Para rodar o projeto é necessário colocar a pasta Stocks na raiz do projeto !!!!!
 >  **Atenção:** a pasta `stocks/` deve estar na raiz do projeto com os arquivos CSV para importação no código.
 
-.
 - app/ Código principal da aplicação
   - core/ Conexão e inicialização do banco
   - repository/ Queries SQL e persistência
