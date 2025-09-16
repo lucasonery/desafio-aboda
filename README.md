@@ -52,10 +52,10 @@ Projeto de ETL, API e Bot do Telegram para ingestão, consulta e análise de dad
 
 ###  Passo 1 — Build das imagens
 
-# builda a imagem base do projeto
+builda a imagem base do projeto: 
 docker build . -t aboda  
 
-# ou (forma recomendada para múltiplos serviços)
+forma recomendada para múltiplos serviços:
 docker compose build --no-cache
 
 ### Passo 2 — Subir todos os serviços
